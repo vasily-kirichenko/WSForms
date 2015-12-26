@@ -1,0 +1,14 @@
+redirects: on
+source https://www.nuget.org/api/v2
+framework >= net45
+
+nuget Microsoft.Owin
+nuget Mono.Cecil
+nuget Owin
+nuget Suave
+nuget WebSharper
+nuget WebSharper.Owin
+nuget WebSharper.Suave
+nuget WebSharper.UI.Next
+nuget WebSharper.Forms
+nuget FSharp.Core

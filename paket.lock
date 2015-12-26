@@ -1,0 +1,27 @@
+REDIRECTS: ON
+FRAMEWORK: >= NET45
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    FSharp.Core (4.0.0.1)
+    Microsoft.Owin (3.0.1)
+      Owin (>= 1.0)
+    Mono.Cecil (0.9.6.1)
+    Owin (1.0.0)
+    Suave (0.33.0)
+      FSharp.Core (>= 3.1.2.5)
+    WebSharper (3.6.6.225)
+    WebSharper.Forms (3.6.4.42-alpha)
+      WebSharper (>= 3.6.6.225)
+      WebSharper.UI.Next (>= 3.6.5.201)
+    WebSharper.Owin (3.6.3.118)
+      Microsoft.Owin (>= 3.0.1)
+      Owin (>= 1.0)
+      WebSharper (>= 3.6.6.225)
+    WebSharper.Suave (3.6.3.26)
+      Mono.Cecil (>= 0.9.6.1)
+      Suave (>= 0.33.0)
+      WebSharper (>= 3.6.6.225)
+      WebSharper.Owin (>= 3.6.3.118)
+    WebSharper.UI.Next (3.6.5.201)
+      WebSharper (>= 3.6.6.225)
